@@ -1,2 +1,2 @@
 #!/bin/bash
-scrapy runspider spiders/mitspider.py
+scrapy runspider spiders/moneyspider.py
