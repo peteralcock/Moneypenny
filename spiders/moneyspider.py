@@ -14,7 +14,7 @@ class EmailItem(scrapy.Item):
     name = scrapy.Field()
     title = scrapy.Field()
 
-class MITSpider(CrawlSpider):
+class MoneySpider(CrawlSpider):
     name = 'qs-contact-mit'
     allowed_domains = []
     file_CSV = open('companies.csv')
