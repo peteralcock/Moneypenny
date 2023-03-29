@@ -1,5 +1,3 @@
 # moneygrubber
-Scrape Corporate Investor Relations Leads + Avoid Bot Detection
-/bin/bash run.sh
-
+Covertly Scrape Corporate Decision Maker Contact Information
 (Anti-Anti-Bot System Included)
