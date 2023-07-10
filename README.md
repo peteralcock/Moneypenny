@@ -1,3 +1,4 @@
-# moneygrubber
-Covertly Scrape Corporate Decision Maker Contact Information
-(Anti-Anti-Bot System Included)
+# Money Grubber
+Contact collection for decision makers with "batteries included" synthetic anti-anti-bot evasion  built in to this web crawler for scraping investor relations management contact information for partnership lead generation... (FinMarTech FTW!)
+
+
