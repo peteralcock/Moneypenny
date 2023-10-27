@@ -1,6 +1,7 @@
 
-# Moneypenny: Decision-Maker Contact Collection
-
+# Moneypenny
+The Decision-Maker Scraper
+![](logo.png)
 Moneypenny is a robust web crawler designed specifically for scraping contact information from investor relations management platforms. Its primary goal is to aid in partnership lead generation, particularly within the Financial Marketing Technology (FinMarTech) domain.  
 
 ## Key Features:
