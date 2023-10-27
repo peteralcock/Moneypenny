@@ -3,7 +3,7 @@
 ![](logo.jpg)
 
 
-a robust web crawler designed specifically for scraping decision-maker contact information from VC firm websites, with the primary goal being to aid in partnership lead generation for startups.
+Robust web crawler designed specifically for scraping decision-maker contact information from VC firm websites, with the primary goal being to aid in partnership lead generation for startups.
 
 ## Features:
 - **Batteries-Included Approach**: Moneypenny is equipped with all the necessary tools and utilities right out of the box, ensuring a seamless experience for users.
