@@ -1,12 +1,11 @@
 
 # Moneypenny
-The Decision-Maker Scraper
 ![](logo.jpg)
 
 
-Moneypenny is a robust web crawler designed specifically for scraping contact information from investor relations management platforms. Its primary goal is to aid in partnership lead generation, particularly within the Financial Marketing Technology (FinMarTech) domain.  
+a robust web crawler designed specifically for scraping decision-maker contact information from VC firm websites, with the primary goal being to aid in partnership lead generation for startups.
 
-## Key Features:
+## Features:
 - **Batteries-Included Approach**: Moneypenny is equipped with all the necessary tools and utilities right out of the box, ensuring a seamless experience for users.
   
 - **Anti-Anti-Bot Evasion**: One of the standout features of Moneypenny is its built-in synthetic evasion mechanism. This ensures that the crawler can bypass common anti-bot measures implemented on websites, allowing for uninterrupted data collection.
