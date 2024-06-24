@@ -1,6 +1,5 @@
 
 # Moneypenny
-![](logo.jpg)
 
 
 Robust web crawler designed specifically for scraping decision-maker contact information from VC firm websites, with the primary goal being to aid in partnership lead generation for startups.
