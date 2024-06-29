@@ -16,7 +16,6 @@ class DocumentItem(scrapy.Item):
     page_url = scrapy.Field()
     link_text = scrapy.Field()
     link_url = scrapy.Field()
-
 class DocuSpider(CrawlSpider):
     name = 'document-spider'
     allowed_domains = []
@@ -86,6 +85,7 @@ class DocuSpider(CrawlSpider):
             'contains(@href, ".odp")]'
         )
 
+
         for link in links:
             link_url = link.xpath('@href').get()
             if link_url and not link_url.startswith(('http://', 'https://')):
@@ -94,4 +94,6 @@ class DocuSpider(CrawlSpider):
             item['page_url'] = response.url
             item['link_text'] = link.xpath('text()').get()
             item['link_url'] = link_url
+            # Optionally download the file (assuming unique filteration of link URLs collected)
+            # subprocess.run(["wget",  link])
             yield item
