@@ -17,7 +17,7 @@ class DocumentItem(scrapy.Item):
     link_text = scrapy.Field()
     link_url = scrapy.Field()
 
-class DocumentSpider(CrawlSpider):
+class DocuSpider(CrawlSpider):
     name = 'document-spider'
     allowed_domains = []
     page_count = 0  # Counter for the number of pages crawled
