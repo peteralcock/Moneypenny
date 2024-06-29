@@ -13,6 +13,6 @@ from scrapy.crawler import CrawlerProcess
 from scrapy.settings import Settings
 
 process = CrawlerProcess()
-process.crawl(ToScrapeSpider)
-process.crawl(ToScrapeSpiderTwo)
+process.crawl(DocuSpider)
+process.crawl(MoneySpider)
 process.start() # the script will block here until all crawling jobs are finished
