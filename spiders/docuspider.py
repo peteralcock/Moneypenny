@@ -21,7 +21,7 @@ class DocuSpider(CrawlSpider):
     name = 'document-spider'
     allowed_domains = []
     page_count = 0  # Counter for the number of pages crawled
-    max_pages = 2000  # Maximum number of pages to crawl
+    max_pages = 500  # Maximum number of pages to crawl
 
     # Load URLs from a CSV file
     with open('websites.csv') as file_CSV:
